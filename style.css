@@ -171,20 +171,20 @@ li > a:hover {
 	max-width: 100%;
 }
 
-i {
+#icons > a > i {
 	font-size: 50px;
 	padding: 0 5px;
 	color: #f5f5f5;
 	text-decoration: none;
 }
 
-i:hover {
+#icons > a > i:hover {
 	transform: scale(1.1);
 	color: #30e3ca;
 }
 
 @media (max-width: 480px) {
-	i {
+	#icons > a > i {
 		font-size: 10vw;
 	}
 }
