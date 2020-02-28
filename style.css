@@ -85,7 +85,7 @@ li > a:hover {
 }
 
 #img-container {
-	margin: 0;
+	margin: 0px auto 50px auto;
 }
 
 #img-container > img {
@@ -103,9 +103,10 @@ li > a:hover {
 	max-width: 600px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 	#description {
 		font-size: 1.4rem;
+		margin: 0px 10px 50px 10px;
 	}
 }
 
@@ -113,8 +114,9 @@ li > a:hover {
   	margin: 0px auto 50px auto;
   	padding: 0px;
   	display: flex;
-  	flex-direction: row;
-  	justify-content: center;
+  	flex-direction: column;
+	justify-content: flex-start;
+	max-width: 610px;
 }
 
 @media (max-width: 480px) {
@@ -130,7 +132,7 @@ li > a:hover {
 	text-align: center;
 	border: 2px solid #f5f5f5;
 	border-radius: 3px;
-	margin: 5px;
+	margin: 0 10px 20px 10px;
 }
 
 .title {
@@ -143,9 +145,14 @@ li > a:hover {
   border-bottom: 2px solid #f5f5f5;
 }
 
-.title:hover {
+.title > a {
+	color: #40514e;
+	text-decoration: none;
+}
+
+.title > a:hover {
 	color: #f5f5f5;
-	cursor: pointer;
+	cursor: pointer;	
 }
 
 @media (max-width: 490px) {
@@ -158,6 +165,12 @@ li > a:hover {
 
 #art > img {
 	max-width: 100%;
+	width: 600px;
+}
+
+#art > a> img {
+	max-width: 100%;
+	width: 600px;
 }
 
 #contact {
