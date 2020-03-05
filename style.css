@@ -2,6 +2,7 @@
 
 html {
 	font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -81,11 +82,10 @@ li > a:hover {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 60px;
 }
 
 #img-container {
-	margin: 0px auto 50px auto;
+	margin: 0px auto 30px auto;
 }
 
 #img-container > img {
@@ -96,23 +96,24 @@ li > a:hover {
 
 #about {
 	max-width: 100%;
+    padding-top: 60px;
 }
 
 #description {
-	margin: 0px auto 50px auto;
+	margin: 0px auto;
 	max-width: 600px;
 }
 
 @media (max-width: 600px) {
 	#description {
 		font-size: 1.4rem;
-		margin: 0px 10px 50px 10px;
+		margin: 0px 10px;
 	}
 }
 
 #works {
-  	margin: 0px auto 50px auto;
-  	padding: 0px;
+  	margin: 0 auto;
+  	padding: 60px 0;
   	display: flex;
   	flex-direction: column;
 	justify-content: flex-start;
@@ -164,17 +165,18 @@ li > a:hover {
 }
 
 #art > img {
+    display: block;
 	max-width: 100%;
 	width: 600px;
 }
 
-#art > a> img {
+#art > a > img {
 	max-width: 100%;
 	width: 600px;
 }
 
 #contact {
-	margin: 0px auto 50px auto;
+	margin: 0px auto 100px auto;
 }
 
 #icons {
